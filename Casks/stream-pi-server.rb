@@ -1,14 +1,14 @@
 cask "stream-pi-server" do
   version "1.0.0"
-  sha256 "83f9987d11cc6dd803fb8b15388a559104e4220faccce1e62db1b4e7f83902f9"
+  sha256 "c6c098942e5346c91a6db4794b9a0f15629dc8e38fa1483e038bb7a895832ae2"
 
-  url "https://github.com/stream-pi/server/releases/download/#{version}-EA%2B3-SNAPSHOT/stream-pi-server-macos-x64-#{version}-EA+3-SNAPSHOT.pkg",
+  url "https://github.com/stream-pi/server/releases/download/#{version}-EA%2B3/stream-pi-server-macos-x64-#{version}-EA+3.pkg",
       verified: "https://github.com/stream-pi/server"
   name "Stream-Pi Server"
-  desc "Opensource, Cross-Platform, Programmable, Modular Macropad Software"
+  desc "Modular Macropad Software"
   homepage "https://stream-pi.com"
 
-  pkg "stream-pi-server-macos-x64-#{version}-EA+3-SNAPSHOT.pkg"
+  pkg "stream-pi-server-macos-x64-#{version}-EA+3.pkg"
 
   uninstall pkgutil: "stream-pi-server"
 
