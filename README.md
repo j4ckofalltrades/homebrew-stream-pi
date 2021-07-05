@@ -4,13 +4,39 @@ Unofficial Homebrew formulae for [Stream-Pi](https://stream-pi.com).
 
 ## Usage
 
+### Install
+
 ```sh
 # add tap
 $ brew tap j4ckofalltrades/stream-pi
 
-# install client
+# client
 $ brew install stream-pi-client
 
-# install server
+# server
 $ brew install stream-pi-server
+```
+
+### Uninstall
+
+```sh
+# client
+$ brew uninstall stream-pi-client
+
+# server
+$ brew uninstall stream-pi-server
+```
+
+For a more complete uninstall process, use the `--zap` option.
+This removes preference files and caches for the app.
+
+```sh
+# client
+$ brew uninstall --zap stream-pi-client
+
+# server
+$ brew uninstall --zap stream-pi-server
+
+# remove tap
+$ brew untap j4ckofalltrades/stream-pi
 ```
