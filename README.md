@@ -17,6 +17,8 @@ $ brew install stream-pi-client
 $ brew install stream-pi-server
 ```
 
+[![asciicast](https://asciinema.org/a/424338.svg)](https://asciinema.org/a/424338?autoplay=1)
+
 ### Uninstall
 
 ```sh
@@ -40,3 +42,5 @@ $ brew uninstall --zap stream-pi-server
 # remove tap
 $ brew untap j4ckofalltrades/stream-pi
 ```
+
+[![asciicast](https://asciinema.org/a/424339.svg)](https://asciinema.org/a/424339?autoplay=1)
